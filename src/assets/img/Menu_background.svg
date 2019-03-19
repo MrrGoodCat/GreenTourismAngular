@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1950" height="105" viewBox="0 0 1950 105">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(47,88,0,0.9);
+      }
+
+      .cls-2 {
+        filter: url(#Menu_background);
+      }
+    </style>
+    <filter id="Menu_background" x="0" y="0" width="1950" height="105" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <rect id="Menu_background-2" data-name="Menu background" class="cls-1" width="1920" height="75" transform="translate(15 7)"/>
+  </g>
+</svg>
